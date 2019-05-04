@@ -6,9 +6,9 @@
 using namespace std;
 int main()
 {
-int x;
-double V, y, z;
-z = 2.5;
+int x, y;
+double V;
+const double z = 2.5;
 
 cout << "Enter X-value (whole numbers only):" << endl;
 cin >> x;
