@@ -10,9 +10,9 @@ int x, y;
 double V;
 const double z = 2.5;
 
-cout << "Enter X-value (whole numbers only):" << endl;
+cout << "Enter X-value (integers only):" << endl;
 cin >> x;
-cout << "Enter Y-value:" << endl;
+cout << "Enter Y-value (integers only):" << endl;
 cin >> y;
 
 switch(x)
