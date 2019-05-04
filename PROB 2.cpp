@@ -24,7 +24,7 @@ cout << "Amount due: P" << setprecision(7) << due << endl;
 else if (due > 100000 && due < 1000000)
 cout << "Amount due: P" << setprecision(8) << due << endl;
 else
-cout << "Amount due: P" << setprecision(3) << due << endl;
+cout << "Amount due: P" << setprecision(4) << due << endl;
 }
 else
 {
@@ -38,7 +38,7 @@ cout << "Amount due: P" << setprecision(7) << due << endl;
 else if (due > 100000 && due < 1000000)
 cout << "Amount due: P" << setprecision(8) << due << endl;
 else
-cout << "Amount due: P" << setprecision(3) << due << endl;
+cout << "Amount due: P" << setprecision(4) << due << endl;
 }
 
 return 0;
